@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PEAKiOS", "PEAKiOS\PEAKiOS.csproj", "{33EF9B17-BA71-4523-8969-CA7A5B4C7166}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33EF9B17-BA71-4523-8969-CA7A5B4C7166}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{33EF9B17-BA71-4523-8969-CA7A5B4C7166}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{33EF9B17-BA71-4523-8969-CA7A5B4C7166}.Release|iPhone.ActiveCfg = Release|iPhone
+		{33EF9B17-BA71-4523-8969-CA7A5B4C7166}.Release|iPhone.Build.0 = Release|iPhone
+		{33EF9B17-BA71-4523-8969-CA7A5B4C7166}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{33EF9B17-BA71-4523-8969-CA7A5B4C7166}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{33EF9B17-BA71-4523-8969-CA7A5B4C7166}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{33EF9B17-BA71-4523-8969-CA7A5B4C7166}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
