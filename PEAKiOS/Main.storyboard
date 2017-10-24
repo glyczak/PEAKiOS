@@ -56,8 +56,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue id="724" destination="440" kind="relationship" relationship="viewControllers"/>
+                        <segue id="3270" destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -67,7 +67,7 @@
         <scene sceneID="439">
             <objects>
                 <tableViewController id="440" sceneMemberID="viewController" customClass="FirstViewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="723"/>
+                    <tabBarItem key="tabBarItem" title="First" id="723"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections/>
                 </tableViewController>
