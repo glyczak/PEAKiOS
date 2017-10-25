@@ -102,10 +102,13 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IPEAKApi.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="Models\Module.cs" />
     <Compile Include="TableSource.cs" />
     <Compile Include="SecondViewController.cs" />
     <Compile Include="FirstViewController.designer.cs">
@@ -120,5 +123,9 @@
       <DependentUpon>FirstV.cs</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <Import Project="..\packages\Refit.4.0.1\build\netstandard1.4\refit.targets" />
 </Project>
