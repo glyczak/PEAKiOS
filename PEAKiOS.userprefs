@@ -1,5 +1,4 @@
 ﻿<Properties StartupConfiguration="{33EF9B17-BA71-4523-8969-CA7A5B4C7166}|Default" VersionControlDisabled="True">
-<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="PEAKiOS/Main.storyboard">
     <Files>
       <File FileName="PEAKiOS/AppDelegate.cs" Line="13" Column="40" />
@@ -9,14 +8,11 @@
       <File FileName="PEAKiOS/Main.storyboard" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-=======
-  <MonoDevelop.Ide.Workbench />
->>>>>>> f3e009501978f6b46131a677078e5512e10fb560
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.PEAKiOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E26B1CAD-331B-495C-B408-97B2DB0B0367" />
+  <MonoDevelop.Ide.ItemProperties.PEAKiOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.EF82A323-D83C-4E9B-A602-D3BAABC80017" />
 </Properties>

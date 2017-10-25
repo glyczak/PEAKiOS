@@ -1,0 +1,9 @@
+/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/_PartialAppManifest.items
+/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/_BundleResourceWithLogicalName.items
+/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/optimized/
+/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.csproj.CoreCompileInputs.cache
+/Users/al914/Projects/PEAKiOS/PEAKiOS/bin/iPhoneSimulator/Debug/PEAKiOS.exe
+/Users/al914/Projects/PEAKiOS/PEAKiOS/bin/iPhoneSimulator/Debug/PEAKiOS.pdb
+/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.exe
+/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.pdb
