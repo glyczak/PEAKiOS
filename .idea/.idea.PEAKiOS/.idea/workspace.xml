@@ -2,140 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33c85afe-8b2d-4850-8a46-de65a107472e" name="Default" comment="Add Api Interface and Module model">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/Assets.car" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/LaunchScreen.storyboardc/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/Main.storyboardc/440-view-441.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/Main.storyboardc/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/Main.storyboardc/UITabBarController-49e-Tb-3d3.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/Mono.Security.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/Mono.Security.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/MonoTouchDebugConfiguration.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/PEAKiOS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/PEAKiOS.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/PEAKiOS.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/PkgInfo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/Settings.bundle/Root.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/System.Core.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/System.Core.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/System.Xml.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/System.Xml.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/System.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/System.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/Xamarin.iOS.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/Xamarin.iOS.dll.mdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/mscorlib.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/mscorlib.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/PEAKiOS.app/runtime-options.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/mtouch.stamp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.csproj.CoreCompileInputs.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.csproj.FileListAbsolute.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/RefitStubs.g.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/_BundleResourceWithLogicalName.items" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/_PartialAppManifest.items" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/asset-manifest.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/bundle/Assets.car" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/cloned-assets/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/cloned-assets/Assets.xcassets/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/cloned-assets/Assets.xcassets/First.imageset/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/cloned-assets/Assets.xcassets/First.imageset/vector.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/cloned-assets/Assets.xcassets/Second.imageset/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/cloned-assets/Assets.xcassets/Second.imageset/vector.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/partial-info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool-link/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool-link/LaunchScreen.storyboardc/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool-link/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool-link/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool-link/Main.storyboardc/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool-link/Main.storyboardc/UITabBarController-49e-Tb-3d3.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool-manifests/LaunchScreen.storyboardc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool-manifests/Main.storyboardc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool-manifests/link" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool/LaunchScreen.storyboardc/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool/Main.storyboardc/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool/Main.storyboardc/UITabBarController-49e-Tb-3d3.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool/_BundleResourceWithLogicalName.items" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/mtouch-cache/arguments" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/mtouch-cache/assembly-references.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/mtouch-cache/entry-points.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/mtouch-symbols.list" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/Refit.4.0.1.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/GeneratedInterfaceStubTemplate.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/InterfaceStubGenerator.BuildTasks.deps.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/InterfaceStubGenerator.BuildTasks.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/InterfaceStubGenerator.BuildTasks.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/InterfaceStubGenerator.BuildTasks.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/InterfaceStubGenerator.Core.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/InterfaceStubGenerator.Core.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/InterfaceStubGenerator.Core.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/Microsoft.CodeAnalysis.CSharp.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/Microsoft.CodeAnalysis.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/Nustache.Core.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/GeneratedInterfaceStubTemplate.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/InterfaceStubGenerator.BuildTasks.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/InterfaceStubGenerator.BuildTasks.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/InterfaceStubGenerator.BuildTasks.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/InterfaceStubGenerator.Core.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/InterfaceStubGenerator.Core.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/InterfaceStubGenerator.Core.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/Microsoft.Build.Framework.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/Microsoft.Build.Tasks.Core.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/Microsoft.Build.Utilities.Core.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/Microsoft.CodeAnalysis.CSharp.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/Microsoft.CodeAnalysis.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/Nustache.Core.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.AppContext.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Collections.Immutable.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Console.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Diagnostics.FileVersionInfo.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Diagnostics.StackTrace.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.IO.Compression.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.IO.FileSystem.Primitives.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.IO.FileSystem.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Reflection.Metadata.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Security.Cryptography.Algorithms.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Security.Cryptography.Encoding.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Security.Cryptography.Primitives.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Security.Cryptography.X509Certificates.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Text.Encoding.CodePages.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Threading.Thread.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.ValueTuple.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Xml.ReaderWriter.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Xml.XPath.XDocument.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Xml.XPath.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Xml.XmlDocument.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/unix/lib/netstandard1.3/System.Diagnostics.FileVersionInfo.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/unix/lib/netstandard1.3/System.IO.Compression.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/win/lib/net46/System.Diagnostics.FileVersionInfo.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/win/lib/net46/System.IO.Compression.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/win/lib/net46/System.Security.Cryptography.Algorithms.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/win/lib/net46/System.Security.Cryptography.Encoding.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/win/lib/net46/System.Security.Cryptography.X509Certificates.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/net45/refit.targets" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/build/netstandard1.4/refit.targets" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/lib/net45/Refit.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/lib/net45/Refit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/lib/netstandard1.4/Refit.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/Refit.4.0.1/lib/netstandard1.4/Refit.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.csprojResolveAssemblyReference.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/Refit.4.0.1.nupkg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/InterfaceStubGenerator.BuildTasks.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/InterfaceStubGenerator.BuildTasks.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/InterfaceStubGenerator.Core.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/InterfaceStubGenerator.Core.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/Microsoft.CodeAnalysis.CSharp.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/Microsoft.CodeAnalysis.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/Nustache.Core.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/InterfaceStubGenerator.BuildTasks.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/InterfaceStubGenerator.BuildTasks.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/InterfaceStubGenerator.Core.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/InterfaceStubGenerator.Core.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/Microsoft.Build.Framework.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/Microsoft.Build.Tasks.Core.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/Microsoft.Build.Utilities.Core.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/Microsoft.CodeAnalysis.CSharp.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/Microsoft.CodeAnalysis.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/Nustache.Core.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.AppContext.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Collections.Immutable.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Console.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Diagnostics.FileVersionInfo.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Diagnostics.StackTrace.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.IO.Compression.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.IO.FileSystem.Primitives.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.IO.FileSystem.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Reflection.Metadata.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Security.Cryptography.Algorithms.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Security.Cryptography.Encoding.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Security.Cryptography.Primitives.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Security.Cryptography.X509Certificates.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Text.Encoding.CodePages.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Threading.Thread.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.ValueTuple.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Xml.ReaderWriter.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Xml.XPath.XDocument.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Xml.XPath.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/System.Xml.XmlDocument.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/unix/lib/netstandard1.3/System.Diagnostics.FileVersionInfo.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/unix/lib/netstandard1.3/System.IO.Compression.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/win/lib/net46/System.Diagnostics.FileVersionInfo.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/win/lib/net46/System.IO.Compression.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/win/lib/net46/System.Security.Cryptography.Algorithms.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/win/lib/net46/System.Security.Cryptography.Encoding.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/win/lib/net46/System.Security.Cryptography.X509Certificates.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/lib/net45/Refit.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/lib/netstandard1.4/Refit.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/GeneratedInterfaceStubTemplate.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/InterfaceStubGenerator.BuildTasks.deps.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/InterfaceStubGenerator.BuildTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildCore20/InterfaceStubGenerator.Core.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/GeneratedInterfaceStubTemplate.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/InterfaceStubGenerator.BuildTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/MSBuildFull46/InterfaceStubGenerator.Core.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/net45/refit.targets" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/build/netstandard1.4/refit.targets" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/lib/net45/Refit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/Refit.4.0.1/lib/netstandard1.4/Refit.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.PEAKiOS/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.PEAKiOS/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.PEAKiOS/riderModule.iml" afterPath="$PROJECT_DIR$/.idea/.idea.PEAKiOS/riderModule.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PEAKiOS.userprefs" afterPath="$PROJECT_DIR$/PEAKiOS.userprefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PEAKiOS/PEAKiOS.csproj" afterPath="$PROJECT_DIR$/PEAKiOS/PEAKiOS.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PEAKiOS/packages.config" afterPath="$PROJECT_DIR$/PEAKiOS/packages.config" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -146,21 +77,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IPEAKApi.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PEAKiOS/Interfaces/IPEAKApi.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-              <folding>
-                <marker date="1508951740000" expanded="true" signature="6:98" ph="..." />
-                <marker date="1508951740000" expanded="true" signature="197:276" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -240,7 +157,7 @@
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PEAKiOS (load failed)" />
+              <option name="myItemId" value="PEAKiOS" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -366,7 +283,9 @@
       <updated>1508787977717</updated>
       <workItem from="1508787983673" duration="4406000" />
       <workItem from="1508951521319" duration="665000" />
-      <workItem from="1508952218594" duration="48000" />
+      <workItem from="1508952218594" duration="90000" />
+      <workItem from="1508952350542" duration="377000" />
+      <workItem from="1508952750277" duration="60000" />
     </task>
     <task id="LOCAL-00001" summary="Add Api Interface and Module model">
       <created>1508950803082</created>
@@ -379,7 +298,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5119000" />
+    <option name="totallyTimeSpent" value="5598000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,12 +314,12 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53421634" sideWeight="0.50238097" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53421634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53421634" sideWeight="0.49761903" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -467,6 +386,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PEAKiOS/Interfaces/IPEAKApi.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508951740000" expanded="true" signature="6:98" ph="..." />
+            <marker date="1508951740000" expanded="true" signature="197:276" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PEAKiOS/Interfaces/IPEAKApi.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -577,14 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PEAKiOS/packages.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PEAKiOS/Models/Module.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -603,6 +525,14 @@
             <marker date="1508951740000" expanded="true" signature="6:98" ph="..." />
             <marker date="1508951740000" expanded="true" signature="197:276" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PEAKiOS/packages.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
