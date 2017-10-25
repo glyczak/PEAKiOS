@@ -18,6 +18,7 @@ namespace PEAKiOS
 
             //get built-in UITableView from UITableViewController
             UITableView table = base.TableView;
+<<<<<<< HEAD
             
             try  
             {
@@ -34,6 +35,8 @@ namespace PEAKiOS
             {  
                 Log.Error("Ozioma See", ex.Message);  
                 
+=======
+>>>>>>> ef6ebe1568c109c041c2776b76718367ac39b4f6
 
             //array to populate table cells
             string[] modules = { "Grocery Store", "Playground", "Movie Theater", "Doctors Office", "Library" };
