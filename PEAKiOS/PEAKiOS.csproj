@@ -107,12 +107,8 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="TableSource.cs" />
-    <Compile Include="SecondViewController.cs" />
     <Compile Include="FirstViewController.designer.cs">
       <DependentUpon>TableSource.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SecondViewController.designer.cs">
-      <DependentUpon>SecondViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="FirstViewController.cs" />
     <Compile Include="FirstV.cs" />

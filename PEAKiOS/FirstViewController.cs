@@ -21,7 +21,7 @@ namespace PEAKiOS
 
             //array to populate table cells
             string[] modules = { "Grocery Store", "Playground", "Movie Theater", "Doctors Office", "Library" };
-            table.Source = new TableSource(modules);
+            table.Source = new TableSource(modules, this);
         }
 
         public override void DidReceiveMemoryWarning()

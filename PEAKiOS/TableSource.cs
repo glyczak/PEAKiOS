@@ -8,10 +8,12 @@ namespace PEAKiOS
     {
         string[] TableItems;
         string CellIdentifier = "TableCell";
+        FirstViewController fView;
 
-        public TableSource(string[] items)
+        public TableSource(string[] items, FirstViewController fView)
         {
             TableItems = items;
+            this.fView = fView;
         }
 
         public override nint RowsInSection(UITableView tableview, nint section)
@@ -31,6 +33,15 @@ namespace PEAKiOS
             cell.TextLabel.Text = item;
 
             return cell;
+        }
+
+        public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
+        {
+            UIAlertController okAlertController = UIAlertController.Create("Row Selected", TableItems[indexPath.Row], UIAlertControllerStyle.Alert);
+            okAlertController.AddAction(UIAlertAction.Create("OK", UIAlertActionStyle.Default, null));
+
+            tableView.DeselectRow(indexPath, true);
+            fView.PresentViewController(okAlertController, true, null);
         }
     }
 }
