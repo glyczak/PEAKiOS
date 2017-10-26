@@ -115,6 +115,10 @@
     <Compile Include="FirstV.designer.cs">
       <DependentUpon>FirstV.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModuleInfoViewController.cs" />
+    <Compile Include="ModuleInfoViewController.designer.cs">
+      <DependentUpon>ModuleInfoViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

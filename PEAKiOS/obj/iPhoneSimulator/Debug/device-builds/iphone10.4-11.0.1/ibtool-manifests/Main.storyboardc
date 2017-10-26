@@ -7,22 +7,6 @@
 	<key>com.apple.ibtool.document.notices</key>
 	<dict/>
 	<key>com.apple.ibtool.document.warnings</key>
-	<dict>
-		<key>3976</key>
-		<array>
-			<dict>
-				<key>affected-objects</key>
-				<array>
-					<string>3976</string>
-				</array>
-				<key>message</key>
-				<string>Segues initiated directly from view controllers must have an identifier</string>
-				<key>type</key>
-				<string>IBUnsupportedConfiguration</string>
-				<key>type-value</key>
-				<integer>9</integer>
-			</dict>
-		</array>
-	</dict>
+	<dict/>
 </dict>
 </plist>
