@@ -8,6 +8,13 @@ namespace PEAKiOS
     {
         public ModuleInfoViewController (IntPtr handle) : base (handle)
         {
+            
+        }
+
+        public override void ViewDidLoad() {
+            base.ViewDidLoad();
+
+
         }
     }
 }

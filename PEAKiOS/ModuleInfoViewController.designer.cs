@@ -14,8 +14,16 @@ namespace PEAKiOS
     [Register ("ModuleInfoViewController")]
     partial class ModuleInfoViewController
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel labelOne { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
+            if (labelOne != null) {
+                labelOne.Dispose ();
+                labelOne = null;
+            }
         }
     }
 }

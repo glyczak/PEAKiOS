@@ -6,7 +6,7 @@ namespace PEAKiOS
 {
     public partial class TableSource : UITableViewSource
     {
-        string[] TableItems;
+        public string[] TableItems;
         string CellIdentifier = "TableCell";
         FirstViewController fView;
         ModuleInfoViewController mIView;
@@ -40,7 +40,7 @@ namespace PEAKiOS
         public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
         {
             tableView.DeselectRow(indexPath, true);
-            fView.NavigationController.PushViewController(mIView, true);
+            fView.PerformSegue("toModuleInfo", this);
         }
     }
 }

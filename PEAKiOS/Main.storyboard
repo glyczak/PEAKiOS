@@ -15,7 +15,9 @@
                     <tabBarItem key="tabBarItem" title="First" id="723"/>
                     <navigationItem key="navigationItem" title="Modules" id="FUb-Gc-6bH"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections/>
+                    <connections>
+                        <segue id="7689" destination="3884" kind="show" identifier="toModuleInfo"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="446" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -50,8 +52,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <subviews/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8307" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="181" y="350" width="93" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                     </view>
+                    <connections>
+                        <outlet property="labelOne" destination="8307" id="name-outlet-8307"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3886" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

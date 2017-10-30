@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{33EF9B17-BA71-4523-8969-CA7A5B4C7166}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Main.storyboard">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ModuleInfoViewController.cs">
     <Files>
-      <File FileName="TableSource.cs" Line="49" Column="6" />
-      <File FileName="FirstViewController.cs" Line="25" Column="1" />
-      <File FileName="ModuleInfoViewController.cs" Line="1" Column="1" />
+      <File FileName="TableSource.cs" Line="9" Column="16" />
+      <File FileName="ModuleInfoViewController.cs" Line="17" Column="13" />
       <File FileName="Main.storyboard" />
+      <File FileName="Models/Module.cs" Line="10" Column="31" />
+      <File FileName="Interfaces/IPEAKApi.cs" Line="13" Column="41" />
+      <File FileName="FirstViewController.cs" Line="49" Column="60" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
