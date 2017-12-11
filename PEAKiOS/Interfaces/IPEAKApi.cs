@@ -11,5 +11,8 @@ namespace PEAKiOS
     {
         [Get("/api/modules")]
         Task<List<Module>> GetModules();
+
+        [Get("/api/hints?moduleId={moduleId}")]
+        Task<List<Hint>> GetModuleHints(int moduleId);
     }
 }

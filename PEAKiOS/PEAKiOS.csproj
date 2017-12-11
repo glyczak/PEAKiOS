@@ -123,6 +123,8 @@
     <Folder Include="Resources\" />
     <Folder Include="Models\" />
     <Folder Include="Interfaces\" />
+    <Folder Include="View Controllers\" />
+    <Folder Include="Sources\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -136,21 +138,28 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="TableSource.cs" />
-    <Compile Include="FirstViewController.designer.cs">
-      <DependentUpon>TableSource.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FirstViewController.cs" />
-    <Compile Include="FirstV.cs" />
-    <Compile Include="FirstV.designer.cs">
-      <DependentUpon>FirstV.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ModuleInfoViewController.cs" />
-    <Compile Include="ModuleInfoViewController.designer.cs">
-      <DependentUpon>ModuleInfoViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="Models\Module.cs" />
     <Compile Include="Interfaces\IPEAKApi.cs" />
+    <Compile Include="Models\HintCategory.cs" />
+    <Compile Include="Models\Hint.cs" />
+    <Compile Include="View Controllers\FirstViewController.cs" />
+    <Compile Include="View Controllers\ModuleInfoViewController.cs" />
+    <Compile Include="View Controllers\ModuleInfoViewController.designer.cs">
+      <DependentUpon>ModuleInfoViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sources\TableSource.cs" />
+    <Compile Include="Sources\FirstViewController.designer.cs">
+      <DependentUpon>TableSource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sources\HintTableSource.cs" />
+    <Compile Include="Sources\HintsSource.cs" />
+    <Compile Include="View Controllers\HintDisplayController.cs" />
+    <Compile Include="View Controllers\HintDisplayController.designer.cs">
+      <DependentUpon>HintDisplayController.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Storefront.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="packages\Refit.4.0.1\build\netstandard1.4\refit.targets" Condition="Exists('packages\Refit.4.0.1\build\netstandard1.4\refit.targets')" />

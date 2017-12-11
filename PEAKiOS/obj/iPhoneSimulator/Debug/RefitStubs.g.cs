@@ -52,5 +52,11 @@ namespace PEAKiOS
             return (Task<List<Module>>) methodImpls["GetModules"](Client, arguments);
         }
 
+        public virtual Task<List<Hint>> GetModuleHints(int moduleId)
+        {
+            var arguments = new object[] { moduleId };
+            return (Task<List<Hint>>) methodImpls["GetModuleHints"](Client, arguments);
+        }
+
     }
 }

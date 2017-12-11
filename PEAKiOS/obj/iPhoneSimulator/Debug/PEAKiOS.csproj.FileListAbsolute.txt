@@ -1,13 +1,5 @@
-/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool/_BundleResourceWithLogicalName.items
-/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/_PartialAppManifest.items
-/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/_BundleResourceWithLogicalName.items
-/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/optimized/
-/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.csproj.CoreCompileInputs.cache
 /Users/al914/Projects/PEAKiOS/PEAKiOS/bin/iPhoneSimulator/Debug/PEAKiOS.exe
 /Users/al914/Projects/PEAKiOS/PEAKiOS/bin/iPhoneSimulator/Debug/PEAKiOS.pdb
-/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.exe
-/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.pdb
-/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.csprojResolveAssemblyReference.cache
 /Users/al914/Projects/PEAKiOS/PEAKiOS/bin/iPhoneSimulator/Debug/Microsoft.AspNetCore.WebUtilities.dll
 /Users/al914/Projects/PEAKiOS/PEAKiOS/bin/iPhoneSimulator/Debug/Microsoft.Extensions.Primitives.dll
 /Users/al914/Projects/PEAKiOS/PEAKiOS/bin/iPhoneSimulator/Debug/Microsoft.Net.Http.Headers.dll
@@ -23,3 +15,11 @@
 /Users/al914/Projects/PEAKiOS/PEAKiOS/bin/iPhoneSimulator/Debug/Microsoft.AspNetCore.WebUtilities.xml
 /Users/al914/Projects/PEAKiOS/PEAKiOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.xml
 /Users/al914/Projects/PEAKiOS/PEAKiOS/bin/iPhoneSimulator/Debug/Refit.xml
+/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/_PartialAppManifest.items
+/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/actool/_BundleResourceWithLogicalName.items
+/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0.1/optimized/
+/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.csprojResolveAssemblyReference.cache
+/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.csproj.CoreCompileInputs.cache
+/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.exe
+/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/PEAKiOS.pdb
