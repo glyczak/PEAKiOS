@@ -14,5 +14,8 @@ namespace PEAKiOS
     [Register ("HintDisplayController")]
     partial class HintDisplayController
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

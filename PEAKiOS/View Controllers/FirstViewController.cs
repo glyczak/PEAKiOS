@@ -4,12 +4,15 @@ using System.Linq;
 using Foundation;
 using Refit;
 using UIKit;
+using PEAKiOS.Sources;
 
 namespace PEAKiOS
 {
     public partial class FirstViewController : UITableViewController
     {
         UITableView table;
+        UISearchBar searchBar = new UISearchBar();
+        TableSource tSource;
         //List<PEAKiOS.Models.Module> modulesRes;
         //List<PEAKiOS.Models.Hint> hintsRes;
         string[] modules;
@@ -74,7 +77,21 @@ namespace PEAKiOS
             //System.Console.WriteLine(preventionHints[0].Content);
             //array to populate table cells
             modules = new string[] { "First Module", "Second Module", "Third Module", "Fourth Module" };
-            table.Source = new TableSource(modules, this);
+            tSource = new TableSource(modules, this);
+            table.Source = tSource;
+
+            searchBar = new UISearchBar();
+            searchBar.SizeToFit();
+            searchBar.AutocorrectionType = (UIKit.UITextAutocorrectionType)UITextAutocapitalizationType.None;
+            searchBar.AutocapitalizationType = UITextAutocapitalizationType.None;
+
+            searchBar.TextChanged += (sender, e) =>  
+            {  
+                //this is the method that is called when the user searches  
+                searchTable();  
+            };  
+
+            table.TableHeaderView = searchBar;
         }
 
         public override void DidReceiveMemoryWarning()
@@ -86,6 +103,13 @@ namespace PEAKiOS
         public void SetSelected(int s){
             rowSelected = s;
         }
+
+        public void searchTable()  
+        {  
+            //perform the search, and refresh the table with the results  
+            tSource.PerformSearch(searchBar.Text);  
+            table.ReloadData();  
+        }  
 
         public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
         {

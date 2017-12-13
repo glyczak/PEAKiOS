@@ -1,11 +1,11 @@
-﻿<Properties VersionControlDisabled="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PEAKiOS/Main.storyboard">
+﻿<Properties StartupConfiguration="{33EF9B17-BA71-4523-8969-CA7A5B4C7166}|Default" VersionControlDisabled="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PEAKiOS/Sources/TableSource.cs">
     <Files>
       <File FileName="PEAKiOS/AppDelegate.cs" Line="1" Column="1" />
       <File FileName="PEAKiOS/Main.cs" Line="12" Column="1" />
-      <File FileName="PEAKiOS/TableSource.cs" Line="44" Column="72" />
-      <File FileName="PEAKiOS/FirstViewController.cs" Line="1" Column="1" />
-      <File FileName="PEAKiOS/Main.storyboard" Line="1" Column="1" />
+      <File FileName="PEAKiOS/Main.storyboard" />
+      <File FileName="PEAKiOS/View Controllers/FirstViewController.cs" Line="7" Column="23" />
+      <File FileName="PEAKiOS/Sources/TableSource.cs" Line="50" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -14,4 +14,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PEAKiOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6E6097DC-8503-4931-816F-0DC2C57AF943" />
 </Properties>
