@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{33EF9B17-BA71-4523-8969-CA7A5B4C7166}|Default" VersionControlDisabled="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PEAKiOS/Sources/TableSource.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PEAKiOS/View Controllers/ModuleInfoViewController.cs">
     <Files>
       <File FileName="PEAKiOS/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="PEAKiOS/Main.cs" Line="12" Column="1" />
+      <File FileName="PEAKiOS/Main.cs" Line="11" Column="40" />
       <File FileName="PEAKiOS/Main.storyboard" />
-      <File FileName="PEAKiOS/View Controllers/FirstViewController.cs" Line="7" Column="23" />
-      <File FileName="PEAKiOS/Sources/TableSource.cs" Line="50" Column="48" />
+      <File FileName="PEAKiOS/View Controllers/FirstViewController.cs" Line="86" Column="30" />
+      <File FileName="PEAKiOS/Sources/TableSource.cs" Line="78" Column="35" />
+      <File FileName="PEAKiOS/Models/Module.cs" Line="8" Column="36" />
+      <File FileName="PEAKiOS/View Controllers/ModuleInfoViewController.cs" Line="25" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

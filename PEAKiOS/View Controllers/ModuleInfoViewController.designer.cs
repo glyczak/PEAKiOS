@@ -24,6 +24,10 @@ namespace PEAKiOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIImageView ModuleImage { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UINavigationItem ModulePageNav { get; set; }
 
         void ReleaseDesignerOutlets ()
@@ -36,6 +40,11 @@ namespace PEAKiOS
             if (labelOne != null) {
                 labelOne.Dispose ();
                 labelOne = null;
+            }
+
+            if (ModuleImage != null) {
+                ModuleImage.Dispose ();
+                ModuleImage = null;
             }
 
             if (ModulePageNav != null) {

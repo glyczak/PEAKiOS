@@ -23,6 +23,7 @@ namespace PEAKiOS
             ModulePageNav.Title = tText;
             labelOne.Text = desc;
             hTable = hintTable;
+            ModuleImage.Image = new Image { Source = ImageSource.FromUri(new Uri("https://xamarin.com/content/images/pages/forms/example-app.png")) };
 
             UIView hTHeader = new UIView();
             UILabel headerLabel = new UILabel();

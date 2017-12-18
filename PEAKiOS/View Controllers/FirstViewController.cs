@@ -15,7 +15,7 @@ namespace PEAKiOS
         TableSource tSource;
         //List<PEAKiOS.Models.Module> modulesRes;
         //List<PEAKiOS.Models.Hint> hintsRes;
-        string[] modules;
+        List<PEAKiOS.Models.Module> modules;
 
         int rowSelected;
 
@@ -76,7 +76,15 @@ namespace PEAKiOS
 
             //System.Console.WriteLine(preventionHints[0].Content);
             //array to populate table cells
-            modules = new string[] { "First Module", "Second Module", "Third Module", "Fourth Module" };
+            PEAKiOS.Models.Module m1 = new PEAKiOS.Models.Module();
+            m1.Name = "First Module";
+            PEAKiOS.Models.Module m2 = new PEAKiOS.Models.Module();
+            m2.Name = "Second Module";
+            PEAKiOS.Models.Module m3 = new PEAKiOS.Models.Module();
+            m3.Name = "Third Module";
+            PEAKiOS.Models.Module m4 = new PEAKiOS.Models.Module();
+            m4.Name = "Fourth Module";
+            modules = new List<PEAKiOS.Models.Module> {m1,m2,m3,m4};
             tSource = new TableSource(modules, this);
             table.Source = tSource;
 
@@ -121,7 +129,7 @@ namespace PEAKiOS
             {
                 //moduleController.SetTitleText(modulesRes[rowSelected].Name);
                 //moduleController.SetDescText(modulesRes[rowSelected].Description);
-                moduleController.SetTitleText(modules[rowSelected]);
+                moduleController.SetTitleText(modules[rowSelected].Name);
                 moduleController.SetDescText("Description of Module");
             }
         }

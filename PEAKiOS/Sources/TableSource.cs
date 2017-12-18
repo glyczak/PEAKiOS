@@ -2,54 +2,58 @@
 using System.Linq;
 using Foundation;
 using UIKit;
-
+using PEAKiOS.Models;
+using System.Collections.Generic;
 
 namespace PEAKiOS
 {
     public partial class TableSource : UITableViewSource
     {
-        public string[] TableItems, SearchItems;
+        public List<PEAKiOS.Models.Module> TableItems, SearchItems;
+        private List<PEAKiOS.Models.Module> modules;
         string CellIdentifier = "TableCell";
         FirstViewController fView;
         ModuleInfoViewController mIView;
 
-        public TableSource(string[] items, FirstViewController fView)
+        public TableSource(List<PEAKiOS.Models.Module> mods, FirstViewController fView)
         {
-            TableItems = items;
-            SearchItems = items;
+            modules = mods;
+            TableItems = mods;
+            SearchItems = mods;
             this.fView = fView;
             mIView = fView.Storyboard.InstantiateViewController("ModuleInfoViewController") as ModuleInfoViewController;
         }
 
-        public TableSource(string[] items){
-            TableItems = items;
-            SearchItems = items;
+        public TableSource(List<PEAKiOS.Models.Module> mods){
+            //TableItems = mods.Select(x => x.Name).ToList();
+            //SearchItems = mods.Select(x => x.Name).ToList();
+            TableItems = mods;
+            SearchItems = mods;
         }
 
         public override nint RowsInSection(UITableView tableview, nint section)
         {
-            return SearchItems.Length;
+            return SearchItems.Count();
         }
 
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
         {
-            System.Console.WriteLine(indexPath.Row);
             UITableViewCell cell = tableView.DequeueReusableCell(CellIdentifier);
-            string item = SearchItems[indexPath.Row];
+            string item = SearchItems[indexPath.Row].Name;
 
             //if there are no cells to reuse, create a new one
             if (cell == null) { 
                 cell = new UITableViewCell(UITableViewCellStyle.Default, CellIdentifier); 
             }
 
-            cell.TextLabel.Text = SearchItems[indexPath.Row]; 
+            cell.TextLabel.Text = SearchItems[indexPath.Row].Name; 
 
             return cell;
         }
 
         public void PerformSearch(string searchText){
             searchText = searchText.ToLower();
-            this.SearchItems = TableItems.Where(i => i.ToLower().Contains(searchText)).ToArray();
+            this.SearchItems = TableItems.Where(i => i.Name.ToLower().Contains(searchText)).ToList();
             //System.Console.WriteLine(this.SearchItems);
 
         }
@@ -57,9 +61,25 @@ namespace PEAKiOS
         public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
         {
             tableView.DeselectRow(indexPath, true);
+
             if (fView != null)
             {
-                fView.SetSelected(indexPath.Row);
+                if (SearchItems.Count() == TableItems.Count())
+                {
+                    fView.SetSelected(indexPath.Row);
+                }
+                else{
+                    PEAKiOS.Models.Module selected = SearchItems[indexPath.Row];
+                    int cRow = 0;
+                    for (int i = 0; i < TableItems.Count; i++)
+                    {
+                        if(TableItems[i].Equals(selected)){
+                            cRow = i;
+                            break;
+                        }
+                    }
+                    fView.SetSelected(cRow);
+                }
                 fView.PerformSegue("toModuleInfo", this);
             }
         }
