@@ -23,6 +23,37 @@
 				<integer>9</integer>
 			</dict>
 		</array>
+		<key>51188</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>51188</string>
+				</array>
+				<key>message</key>
+				<string>“Title“ is unreachable because it has no entry points, and no identifier for runtime access via -[UIStoryboard instantiateViewControllerWithIdentifier:].</string>
+				<key>type</key>
+				<string>IBUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>54436</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>54436</string>
+					<string>FUb-Gc-6bH</string>
+				</array>
+				<key>message</key>
+				<string>Plain Style unsupported in a Navigation Item</string>
+				<key>type</key>
+				<string>IBUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
 	</dict>
 </dict>
 </plist>

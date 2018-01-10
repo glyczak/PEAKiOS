@@ -1,6 +1,6 @@
-# Version: 11.6.1.2 (xcode9.2: 6857dfcc)
+# Version: 11.6.1.3 (xcode9.2: f70a1348)
 # [first argument, ignore] # --cache
-/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mtouch/mtouch.exe \
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.3/lib/mtouch/mtouch.exe \
 	/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache \
 	--sim \
 	/Users/al914/Projects/PEAKiOS/PEAKiOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/PEAKiOS.app \
@@ -21,13 +21,13 @@
 	/Users/al914/Projects/PEAKiOS/PEAKiOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-symbols.list \
 	--dsym=no \
 	-r \
-	/Users/al914/Projects/PEAKiOS/PEAKiOS/packages/Microsoft.AspNetCore.WebUtilities.1.1.2/lib/netstandard1.3/Microsoft.AspNetCore.WebUtilities.dll \
+	/Users/al914/Projects/PEAKiOS/packages/Microsoft.AspNetCore.WebUtilities.2.0.1/lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll \
 	-r \
-	/Users/al914/Projects/PEAKiOS/PEAKiOS/packages/Microsoft.Extensions.Primitives.1.1.1/lib/netstandard1.0/Microsoft.Extensions.Primitives.dll \
+	/Users/al914/Projects/PEAKiOS/packages/Microsoft.Extensions.Primitives.2.0.0/lib/netstandard2.0/Microsoft.Extensions.Primitives.dll \
 	-r \
-	/Users/al914/Projects/PEAKiOS/PEAKiOS/packages/Microsoft.Net.Http.Headers.1.1.2/lib/netstandard1.1/Microsoft.Net.Http.Headers.dll \
+	/Users/al914/Projects/PEAKiOS/packages/Microsoft.Net.Http.Headers.2.0.1/lib/netstandard2.0/Microsoft.Net.Http.Headers.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
@@ -35,7 +35,7 @@
 	-r \
 	/Users/al914/Projects/PEAKiOS/PEAKiOS/packages/Refit.4.0.1/lib/netstandard1.4/Refit.dll \
 	-r \
-	/Users/al914/Projects/PEAKiOS/PEAKiOS/packages/System.Buffers.4.3.0/lib/netstandard1.1/System.Buffers.dll \
+	/Users/al914/Projects/PEAKiOS/packages/System.Buffers.4.4.0/lib/netstandard2.0/System.Buffers.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
@@ -45,7 +45,7 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Net.Http.dll \
 	-r \
-	/Users/al914/Projects/PEAKiOS/PEAKiOS/packages/System.Runtime.CompilerServices.Unsafe.4.3.0/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll \
+	/Users/al914/Projects/PEAKiOS/packages/System.Runtime.CompilerServices.Unsafe.4.4.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll \
 	-r \
 	/Users/al914/Projects/PEAKiOS/PEAKiOS/packages/System.Text.Encodings.Web.4.4.0/lib/netstandard2.0/System.Text.Encodings.Web.dll \
 	-r \
@@ -327,19 +327,19 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/al914/Projects/PEAKiOS/PEAKiOS/packages/Microsoft.AspNetCore.WebUtilities.1.1.2/lib/netstandard1.3/Microsoft.AspNetCore.WebUtilities.dll \
+	/Users/al914/Projects/PEAKiOS/packages/Microsoft.AspNetCore.WebUtilities.2.0.1/lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll \
 	-r \
-	/Users/al914/Projects/PEAKiOS/PEAKiOS/packages/Microsoft.Extensions.Primitives.1.1.1/lib/netstandard1.0/Microsoft.Extensions.Primitives.dll \
+	/Users/al914/Projects/PEAKiOS/packages/Microsoft.Extensions.Primitives.2.0.0/lib/netstandard2.0/Microsoft.Extensions.Primitives.dll \
 	-r \
-	/Users/al914/Projects/PEAKiOS/PEAKiOS/packages/Microsoft.Net.Http.Headers.1.1.2/lib/netstandard1.1/Microsoft.Net.Http.Headers.dll \
+	/Users/al914/Projects/PEAKiOS/packages/Microsoft.Net.Http.Headers.2.0.1/lib/netstandard2.0/Microsoft.Net.Http.Headers.dll \
 	-r \
 	/Users/al914/Projects/PEAKiOS/PEAKiOS/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll \
 	-r \
 	/Users/al914/Projects/PEAKiOS/PEAKiOS/packages/Refit.4.0.1/lib/netstandard1.4/Refit.dll \
 	-r \
-	/Users/al914/Projects/PEAKiOS/PEAKiOS/packages/System.Buffers.4.3.0/lib/netstandard1.1/System.Buffers.dll \
+	/Users/al914/Projects/PEAKiOS/packages/System.Buffers.4.4.0/lib/netstandard2.0/System.Buffers.dll \
 	-r \
-	/Users/al914/Projects/PEAKiOS/PEAKiOS/packages/System.Runtime.CompilerServices.Unsafe.4.3.0/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll \
+	/Users/al914/Projects/PEAKiOS/packages/System.Runtime.CompilerServices.Unsafe.4.4.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll \
 	-r \
 	/Users/al914/Projects/PEAKiOS/PEAKiOS/packages/System.Text.Encodings.Web.4.4.0/lib/netstandard2.0/System.Text.Encodings.Web.dll \
 	--target-framework \

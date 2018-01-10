@@ -23,15 +23,19 @@ namespace PEAKiOS
             ModulePageNav.Title = tText;
             labelOne.Text = desc;
             hTable = hintTable;
-            ModuleImage.Image = new Image { Source = ImageSource.FromUri(new Uri("https://xamarin.com/content/images/pages/forms/example-app.png")) };
+            //var imgUrl = new NSUrl("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwifvqDb2JbYAhVESN8KHVvcBn0QjRwIBw&url=https%3A%2F%2Ffermentationwineblog.com%2F2013%2F01%2Fpinot-pork-loin-and-consumers-the-grocery-store-and-wine-debate%2F&psig=AOvVaw23tKIUpwTVfl_FRW_u3tzt&ust=1513794126366289");
+            //var data = NSData.FromUrl(imgUrl);
+            //UIImage img = UIImage.LoadFromData(data);
+            UIImage img = new UIImage("Storefront.jpg");
+            ModuleImage.Image = img;
 
-            UIView hTHeader = new UIView();
+            //UIView hTHeader = new UIView();
             UILabel headerLabel = new UILabel();
             headerLabel.Text = "Hints";
-            hTHeader.AddSubview(headerLabel);
+            //hTHeader.AddSubview(headerLabel);
             //hTHeader.Frame = new CoreGraphics.CGRect(100,100,50,10);
-            hTable.TableHeaderView = hTHeader;
-            System.Console.WriteLine(hTable.TableHeaderView);
+            hTable.TableHeaderView = headerLabel;
+            System.Console.WriteLine(headerLabel.Text);
 
             String[] cats = {"Prevention", "Instruction", "Response" };
             hTable.Source = new HintTableSource(cats, this);

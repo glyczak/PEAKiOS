@@ -32,7 +32,7 @@ namespace PEAKiOS
             //get built-in UITableView from UITableViewController
             table = base.TableView;
 
-            var api = RestService.For<IPEAKApi>("http://0bd87470.ngrok.io");
+            var api = RestService.For<IPEAKApi>("http://e85ed436.ngrok.io");
             modulesRes = await api.GetModules();
             hintsRes = await api.GetModuleHints(1);
             //System.Console.WriteLine(hintsRes[0].Content);
@@ -58,9 +58,23 @@ namespace PEAKiOS
             }
             //System.Console.WriteLine(preventionHints[0].Content);
             //array to populate table cells
-            string[] modules = modulesRes.Select(x => x.Name).ToArray();
+            //string[] modules = modulesRes.Select(x => x.Name).ToArray();
             //string[] modules = { "First Module", "Second Module", "Third Module", "Fourth Module" };
-            table.Source = new TableSource(modules, this);
+            table.Source = new TableSource(modulesRes, this);
+
+            //create and initialize search bar for modules
+            searchBar = new UISearchBar();
+            searchBar.SizeToFit();
+            searchBar.AutocorrectionType = (UIKit.UITextAutocorrectionType)UITextAutocapitalizationType.None;
+            searchBar.AutocapitalizationType = UITextAutocapitalizationType.None;
+
+            searchBar.TextChanged += (sender, e) =>
+            {
+                //method called when user searches  
+                searchTable();
+            };
+
+            table.TableHeaderView = searchBar;
         }*/
 
         public override void ViewDidLoad()
@@ -84,7 +98,7 @@ namespace PEAKiOS
             m3.Name = "Third Module";
             PEAKiOS.Models.Module m4 = new PEAKiOS.Models.Module();
             m4.Name = "Fourth Module";
-            modules = new List<PEAKiOS.Models.Module> {m1,m2,m3,m4};
+            modules = new List<PEAKiOS.Models.Module> { m1,m2,m3,m4 };
             tSource = new TableSource(modules, this);
             table.Source = tSource;
 
@@ -95,11 +109,16 @@ namespace PEAKiOS
 
             searchBar.TextChanged += (sender, e) =>  
             {  
-                //this is the method that is called when the user searches  
+                //method called when user searches  
                 searchTable();  
             };  
 
             table.TableHeaderView = searchBar;
+
+            addModule.TouchUpInside += (sender, ea) => {
+                System.Console.WriteLine("in button touch");
+                PerformSegue("toMapView", this);
+            };
         }
 
         public override void DidReceiveMemoryWarning()
@@ -122,15 +141,21 @@ namespace PEAKiOS
         public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
         {
             base.PrepareForSegue(segue, sender);
-
-            var moduleController = segue.DestinationViewController as ModuleInfoViewController;
-            //moduleController.label.Text = table.Source.TitleForHeader(table, 0);
-            if (moduleController != null)
+            if (segue.Identifier == "toModuleInfo")
             {
-                //moduleController.SetTitleText(modulesRes[rowSelected].Name);
-                //moduleController.SetDescText(modulesRes[rowSelected].Description);
-                moduleController.SetTitleText(modules[rowSelected].Name);
-                moduleController.SetDescText("Description of Module");
+                var moduleController = segue.DestinationViewController as ModuleInfoViewController;
+                //moduleController.label.Text = table.Source.TitleForHeader(table, 0);
+                if (moduleController != null)
+                {
+                    //moduleController.SetTitleText(modulesRes[rowSelected].Name);
+                    //moduleController.SetDescText(modulesRes[rowSelected].Description);
+                    moduleController.SetTitleText(modules[rowSelected].Name);
+                    moduleController.SetDescText("Description of Module");
+                }
+            }
+            else if(segue.Identifier == "toMapView"){
+                var mapController = segue.DestinationViewController as mapViewController;
+
             }
         }
     }
