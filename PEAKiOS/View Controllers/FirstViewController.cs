@@ -84,7 +84,7 @@ namespace PEAKiOS
 
             //get built-in UITableView from UITableViewController
             table = base.TableView;
-            List<string> preventionHints = new List<string>(new string[] {"Prevention Hint Number One", "Prevention Hint Number Two"});
+            List<string> preventionHints = new List<string>(new string[] { "Prevention Hint Number One", "Prevention Hint Number Two" });
             List<string> instructionHints = new List<string>(new string[] { "Instruction Hint Number One", "Instruction Hint Number Two" });
             List<string> responseHints = new List<string>(new string[] { "Response Hint Number One", "Response Hint Number Two" });
 
@@ -98,7 +98,7 @@ namespace PEAKiOS
             m3.Name = "Third Module";
             PEAKiOS.Models.Module m4 = new PEAKiOS.Models.Module();
             m4.Name = "Fourth Module";
-            modules = new List<PEAKiOS.Models.Module> { m1,m2,m3,m4 };
+            modules = new List<PEAKiOS.Models.Module> { m1, m2, m3, m4 };
             tSource = new TableSource(modules, this);
             table.Source = tSource;
 
@@ -107,11 +107,11 @@ namespace PEAKiOS
             searchBar.AutocorrectionType = (UIKit.UITextAutocorrectionType)UITextAutocapitalizationType.None;
             searchBar.AutocapitalizationType = UITextAutocapitalizationType.None;
 
-            searchBar.TextChanged += (sender, e) =>  
-            {  
+            searchBar.TextChanged += (sender, e) =>
+            {
                 //method called when user searches  
-                searchTable();  
-            };  
+                searchTable();
+            };
 
             table.TableHeaderView = searchBar;
 
@@ -127,16 +127,17 @@ namespace PEAKiOS
             // Release any cached data, images, etc that aren't in use.
         }
 
-        public void SetSelected(int s){
+        public void SetSelected(int s)
+        {
             rowSelected = s;
         }
 
-        public void searchTable()  
-        {  
+        public void searchTable()
+        {
             //perform the search, and refresh the table with the results  
-            tSource.PerformSearch(searchBar.Text);  
-            table.ReloadData();  
-        }  
+            tSource.PerformSearch(searchBar.Text);
+            table.ReloadData();
+        }
 
         public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
         {
@@ -153,7 +154,8 @@ namespace PEAKiOS
                     moduleController.SetDescText("Description of Module");
                 }
             }
-            else if(segue.Identifier == "toMapView"){
+            else if (segue.Identifier == "toMapView")
+            {
                 var mapController = segue.DestinationViewController as mapViewController;
 
             }
