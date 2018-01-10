@@ -10,21 +10,10 @@
             <objects>
                 <tableViewController id="440" customClass="FirstViewController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="First" id="723"/>
-                    <navigationItem key="navigationItem" title="Modules" id="FUb-Gc-6bH">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="54436">
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="54435" translatesAutoresizingMaskIntoConstraints="NO" key="customView">
-                                <rect key="frame" x="0.0" y="0.0" width="51" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <state key="normal" title="+"/>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Modules" id="FUb-Gc-6bH"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <segue destination="3884" kind="show" identifier="toModuleInfo" id="7689"/>
-                        <segue id="53775" destination="52935" kind="show" identifier="toMapView"/>
-                        <outlet property="addModule" destination="54435" id="name-outlet-54435"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="446" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -40,7 +29,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue id="55952" destination="440" kind="relationship" relationship="rootViewController"/>
+                        <segue destination="440" kind="relationship" relationship="rootViewController" id="4qc-JU-4fm"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K0C-4Y-1zh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -148,7 +137,6 @@
                                         <real key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <connections/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PEAK iOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="51211" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                                 <rect key="frame" x="82" y="84" width="267" height="74"/>
@@ -162,32 +150,10 @@
                     <connections>
                         <outlet property="ViewModules" destination="51193" id="name-outlet-51193"/>
                     </connections>
-                    <navigationItem title="Title" id="55554" key="navigationItem"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="51190" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-366" y="739"/>
-        </scene>
-        <scene sceneID="52934">
-            <objects>
-                <viewController id="52935" sceneMemberID="viewController" customClass="mapViewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="52932"/>
-                        <viewControllerLayoutGuide type="bottom" id="52933"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="52936" customClass="mapViewController">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <subviews/>
-                    </view>
-                    <connections>
-                        <outlet property="mapView" destination="52936" id="name-outlet-52936"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="52937" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="386" y="788"/>
         </scene>
     </scenes>
     <resources>
