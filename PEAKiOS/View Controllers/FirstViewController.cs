@@ -86,7 +86,11 @@ namespace PEAKiOS
             m4.Name = "Fourth Module";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             modules = new List<PEAKiOS.Models.Module> { m1, m2, m3, m4 };
+=======
+            modules = new List<PEAKiOS.Models.Module> {m1,m2,m3,m4};
+>>>>>>> parent of c797493... Broke many things
 =======
             modules = new List<PEAKiOS.Models.Module> {m1,m2,m3,m4};
 >>>>>>> parent of c797493... Broke many things
@@ -141,6 +145,7 @@ namespace PEAKiOS
             base.PrepareForSegue(segue, sender);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (segue.Identifier == "toModuleInfo")
             {
                 var moduleController = segue.DestinationViewController as ModuleInfoViewController;
@@ -156,6 +161,8 @@ namespace PEAKiOS
             else if (segue.Identifier == "toMapView")
             {
                 var mapController = segue.DestinationViewController as mapViewController;
+=======
+>>>>>>> parent of c797493... Broke many things
 =======
 >>>>>>> parent of c797493... Broke many things
 =======
